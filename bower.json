@@ -1,0 +1,25 @@
+{
+  "name": "ui-components-variables",
+  "authors": [
+    "matthew.lee@savogroup.com"
+  ],
+  "description": "Savo UI variables sheets",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "variables",
+    "ux",
+    "standard",
+    "ui"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

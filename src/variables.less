@@ -1,0 +1,110 @@
+@font-size-base: 14px;
+@font-size-browser-default: 16px;
+@baseline-height: 20px;
+@line-height-base: unit(@baseline-height / @font-size-base, em);
+
+@font-size-h1: 30px;
+@font-size-h2: 24px;
+@font-size-h3: 20px;
+@font-size-h4: 16px;
+
+@topNavHeight-small: 50px;
+@topNavHeight-large: 70px;
+
+@siteLogoHeight-small: 36px;
+@siteLogoWidth-small: 58px;
+
+@siteLogoHeight-large: 54px;
+@siteLogoWidth-large: 87px;
+
+@searchContainerPadding: 4px;
+@searchContainerMargin: 4px;
+@searchInputHeight: 35px;
+@searchButtonIconSize: 15px;
+@searchInputHorizontalPadding: 15px;
+
+@menuLinkIconSize: 20px;
+@menuLinkPadding: (@searchInputHeight - @menuLinkIconSize) / 2;
+@menuItemSpacing: 25px;
+@menuItemSpacing-first: 15px;
+
+@imageBasePath: "../../img";
+@navImagePath: "@{imageBasePath}/navigation";
+@navImagePath-dark: "@{navImagePath}/dark";
+@navImagePath-light: "@{navImagePath}/light";
+
+@menuItemTopOffset-small: (@topNavHeight-small - (@menuLinkIconSize + 2 * @menuLinkPadding)) / 2;
+@menuItemTopOffset-large: (@topNavHeight-large - (@menuLinkIconSize + 2 * @menuLinkPadding)) / 2;
+
+@distanceToBottomOfMenuItems-small: (@menuItemTopOffset-small + @menuLinkIconSize + 2 * @menuLinkPadding);
+@distanceToBottomOfMenuItems-large: (@menuItemTopOffset-large + @menuLinkIconSize + 2 * @menuLinkPadding);
+
+@nibWidth: 7px;
+
+@menuBorderWidth: 1px;
+@menu-border-color: #CCCCCC;
+
+@menuPaddingWidth: 2px;
+
+@menuHoverColor: #ededed;
+
+@menuHeaderBackgroundColor: #ededed;
+
+@searchBoxFillColor: #E8E8E8;
+
+@baseColor: #333;
+
+@link-color: #006699;
+
+@menu-padding-horizontal: 15px;
+/* Half the line height on top and bottom aligns the elements to the grid. */
+@menu-height: 36px;
+
+@singleColumnMenuWidth: ((6 * @menuLinkIconSize) + (5 * @menuItemSpacing));
+@twoColumnMenuWidth: 400px;
+
+@sidebarMinWidth: 85%;
+@sidebarWidth: 250px;
+
+@border-radius-base: 2px;
+
+@button-padding-vertical: 4px;
+@button-padding-horizontal: 12px;
+@button-border-width: 1px;
+@button-border-radius: @border-radius-base;
+
+@button-default-color: #333;
+@button-default-color-hover: #333;
+@button-default-color-active: #333;
+@button-default-background-color: #C8D7DD;
+@button-default-background-color-hover: #D3DEE3;
+@button-default-background-color-active: #DBE4E8;
+
+@button-primary-color: #fff;
+@button-primary-color-hover: #fff;
+@button-primary-color-active: #fff;
+@button-primary-background-color: #0085B4;
+@button-primary-background-color-hover: #009DD4;
+@button-primary-background-color-active: #00B3F1;
+
+@button-link-color: @link-color;
+@button-link-color-hover: @link-color;
+@button-link-color-active: @link-color;
+@button-link-background-color: none;
+@button-link-background-color-hover: none;
+@button-link-background-color-active: none;
+
+@button-delete-color: @button-default-color;
+@button-delete-color-hover: @button-default-color-hover;
+@button-delete-color-active: @button-default-color-active;
+@button-delete-background-color: @button-default-background-color;
+@button-delete-background-color-hover: @button-default-background-color-hover;
+@button-delete-background-color-active: @button-default-background-color-active;
+@button-delete-icon-color: #A70101;
+
+@button-modal-delete-color: #fff;
+@button-modal-delete-color-hover: #fff;
+@button-modal-delete-color-active: #fff;
+@button-modal-delete-background-color: #A70101;
+@button-modal-delete-background-color-hover: #C80101;
+@button-modal-delete-background-color-active: #E60101;
